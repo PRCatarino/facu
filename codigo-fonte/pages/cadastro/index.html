@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <title>Cadastro</title>
+    <script type="module" src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container alinhamentoDivLogin">
+        <div class="logo">
+          <img src="../../src/logo.svg" alt="Logo" />
+        </div>
+        <div class="login">
+          <form id="registrationform">
+            <div class="form-group">
+              <label for="username" class="btn-username">
+                <img
+                  src="../../src/user-svgrepo-com.svg"
+                  alt="Username"
+                  class="user-svg"
+                />
+              </label>
+              <input type="text" id="username" name="username" required placeholder="Username" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="email">
+                <img
+                  src="../../src/img/email-9-svgrepo-com.svg"
+                  alt="Email"
+                  class="user-svg"
+                />
+              </label>
+              <input type="email" id="email" name="email" required placeholder="Email" />
+            </div>
+            <div class="form-group">
+              <label for="password" class="password">
+                <img
+                  src="../../src/locked-svgrepo-com.svg"
+                  alt="Password"
+                  class="locked-svg"
+                />
+              </label>
+              <input type="password" id="password" name="password" required placeholder="password"/>
+            </div>
+            <button id="login-button">Cadastrar</button>
+          </form>
+        </div>
+      </div>
+  </body>
+</html>

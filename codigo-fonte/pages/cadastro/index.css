@@ -1,0 +1,84 @@
+@import url(../../utils/css/color.css);
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    background-color:var(--main-color);
+    overflow: hidden;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: -70px -165px 70px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.login{
+    padding: 100px;
+    background:var(--gradient);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px ;
+}
+
+
+.user-svg{
+    width: 20px;
+}
+.locked-svg{
+    width: 20px;
+}
+.alinhamentoDivLogin{
+    flex-direction: column;
+}
+
+.btn-username > h2{
+    margin-left: -15px;
+}
+
+.form-group {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.form-group > input, label{
+    padding: 4px;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#registrationform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#login-button {
+    background: rgb(147,64,255);
+    background: white;
+    color: rgb(147,64,255);
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+}

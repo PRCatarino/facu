@@ -1,0 +1,84 @@
+@import url(../../utils/css/color.css);
+
+body {
+    background-color:var(--main-color);
+}
+h1{
+    display: flex;
+    position: static;
+    color: #ffffff;
+    justify-content: space-between;
+    font-family:'Segoe UI', Tahoma, Geneva, sans-serif;
+    font-size: 25px;
+    width:auto;
+    height: 10px;
+    align-items: flex-end;
+    margin-left: 35px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.image-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.user-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.separator {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    margin:  auto;
+}
+
+.main {
+    width: 90%;
+    
+    padding-top: 40px;
+}
+
+.container-box {
+    width: 400px;
+    height: 200px;
+    background-color: #57239b;
+    border-radius: 25px;
+    margin-left: 63px;
+    display: grid;
+    justify-content: space-between;
+    justify-items: start;
+    padding: 25px;
+}
+
+.inputs-container {
+    flex: 2;
+    padding: auto;   
+}
+
+.input-group {
+    margin-bottom: 10px; 
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    transition: border-color 0.3s ease; 
+}
+
+.input-group input[type="text"]:focus {
+    border-color: #007bff; 
+    outline: none;
+}

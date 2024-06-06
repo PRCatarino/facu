@@ -1,0 +1,131 @@
+@import url(./utils/css/color.css);
+
+body {
+    background-color:var(--main-color) ;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.primary-icon {
+    display: flex;
+}
+
+.login {
+    background: rgb(147,64,255);
+    background:var(--gradient);
+    color: #FFFFFF;
+    font-family: Arial Black, Arial, sans-serif;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
+.cadastro {
+    background: rgb(147,64,255);
+    background: var(--gradient);
+    color: #FFFFFF;
+    font-family: Arial Black, Arial, sans-serif;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 8px 11px;;
+    margin: auto;
+}
+
+.separator {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    margin:  auto;
+}
+
+.text {
+    color: white;
+    font-family: Arial Black, Arial, sans-serif;
+    position: absolute;
+    top: 36%;
+    left: 5%;
+    font-size: 3em;
+    line-height: 1;
+}
+
+.sub-icons {
+    display: flex;
+    justify-content:flex-start;
+    position: fixed;
+    bottom: 25%;
+    left: 4%;
+    left: 3%;
+    width: 90%;
+}
+
+.feed{
+    background: rgb(147,64,255);
+    background: linear-gradient(90deg, rgba(147,64,255,1) 14%, rgba(31,65,187,1) 100%);
+    color: white;
+    font-family: Arial Black, Arial, sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+    padding: 0.7em 2em;
+}
+.saiba {
+    background: rgb(147,64,255);
+    background: linear-gradient(90deg, rgba(147,64,255,1) 14%, rgba(31,65,187,1) 100%);
+    color: white;
+    font-family: Arial Black, Arial, sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+    margin: 0 1%;
+    padding: 0.7em 2em;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none; /* Ocultar por padrão */
+}
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #361583;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+    display: none; /* Ocultar por padrão */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+

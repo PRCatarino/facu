@@ -1,0 +1,83 @@
+@import url(../../utils/css/color.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    background-color:var(--main-color);
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 0px -165px 0px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.login{
+    margin-top: 2%;
+    width: 450px;
+    height: 300px;
+    background: var(--gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px ;
+}
+
+.user-svg, .locked-svg{
+    width: 20px;
+}
+
+.alignDiv{
+    flex-direction: column;
+}
+
+.form-group {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.form-group > input, label{
+    padding: 4px;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+
+#loginForm {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#login-button {
+    margin-top: 10px;
+    background: rgb(147,64,255);
+    background: white;
+    color: rgb(147,64,255);
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+}

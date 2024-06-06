@@ -1,0 +1,106 @@
+@import url(../../utils/css/color.css);
+body {
+    margin: 0;
+    background-color: var(--main-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.image-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.user-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.separator {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    margin:  auto;
+}
+
+.container-main {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.container-box {
+    width: 700px;
+    height: 200px;
+    background-color: #57239b;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.container-flex {
+    padding-top: 50px;
+}
+
+.inputs-container {
+    flex: 2;
+    padding: auto;   
+}
+
+.select-container {
+    flex: 1;
+    display: block;
+}
+
+.input-group {
+    margin-bottom: 10px; 
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"] {
+    width: 80%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s ease; 
+}
+
+.input-group input[type="text"]:focus {
+    border-color: #007bff; 
+    outline: none;
+}
+
+.select-container select {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s ease;
+}
+
+.select-container select:focus {
+    border-color: #007bff; 
+    outline: none;
+}
+
+.select-group {
+    margin-bottom: 140px; 
+}
+
+#button-send {
+    background-color: violet;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border-color: violet;
+}

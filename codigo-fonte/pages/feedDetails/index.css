@@ -1,0 +1,94 @@
+@import url(../../utils/css/color.css);
+
+body {
+    margin: 0;
+    background-color: var(--main-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.image-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.user-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.separator {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    margin:  auto;
+}
+
+.container-main {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.container-box {
+    width: 700px;
+    height: 350px;
+    background-color: #57239b;
+    border-radius: 25px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.container-box h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.container-box .text-box {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.container-box .text-box1 {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: sans-serif;
+    align-items: center;
+    margin: auto;
+}
+
+.container-box .text-box2 {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: sans-serif;
+    align-items: center;
+    margin: auto;
+}
+
+.main-low {
+    margin-top: 15px;
+}
+
+.main-low .box-low {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: sans-serif;
+    align-items: center;
+    margin: auto;
+}
+
