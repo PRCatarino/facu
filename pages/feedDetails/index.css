@@ -1,4 +1,5 @@
-@import url(../../utils/css/color.css);
+@import url(/utils/css/color.css);
+
 
 body {
     margin: 0;
