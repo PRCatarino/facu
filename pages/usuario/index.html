@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuario</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="index.js" defer></script>
+    <script type="module" src="index.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="image-logo">
-                <img src='../img/logo.svg' alt="Logo">
+                <a href="../../index.html"><img src='../../src/img/logo.svg' alt="Logo">
+                </a>
             </div>
             <div class="user-logo">
-                <img src='../img/userIcon.svg' alt="Logo">
+                <img src='../../src/img/userIcon.svg' alt="Logo">
             </div>
         </div>
         <div class="separator"></div>
@@ -24,19 +27,20 @@
             <h1>Informações do usuário</h1>
             <div class="inputs-container">
                 <div class="input-group">
-                    <input placeholder="nome" type="text" id="nome" name="nome">
+                    <input placeholder="nome" type="text" id="nome" name="nome" readonly>
                 </div>
                 <div class="input-group">
-                    <input placeholder="email" type="text" id="email" name="email">
+                    <input placeholder="email" type="text" id="email" name="email" readonly>
                 </div>
                 <div class="input-group">
-                    <input placeholder="senha" type="text" id="senha" name="senha">
+                    <input placeholder="senha" type="text" id="senha" name="senha" readonly>
                 </div>
             </div>
-            </div>
-
         </div>
 
     </div>
+
+    </div>
 </body>
+
 </html>

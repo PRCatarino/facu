@@ -36,12 +36,16 @@ body {
 
 .container-box {
     width: 700px;
-    height: 350px;
+    height: 400px;
     background-color: #57239b;
     border-radius: 25px;
     margin: auto;
     padding: 25px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
 }
 
 .container-box h1 {
@@ -55,8 +59,12 @@ body {
     background-color: white;
     border-radius: 15px;
     font-family: sans-serif;
-    margin: auto;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .container-box .text-box1 {
     width: 300px;
@@ -82,13 +90,8 @@ body {
     margin-top: 15px;
 }
 
-.main-low .box-low {
-    width: 150px;
-    height: 40px;
-    background-color: white;
-    border-radius: 15px;
-    font-family: sans-serif;
-    align-items: center;
-    margin: auto;
+.box-low{
+    width: 100px !important;
+    font-size: 13px !important;
+    height: 30px !important;
 }
-

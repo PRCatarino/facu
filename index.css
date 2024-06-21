@@ -1,7 +1,5 @@
-@import url(./utils/css/color.css);
-
 body {
-    background-color:var(--main-color) ;
+    background-color: #101728;
 }
 
 h1 {
@@ -23,7 +21,7 @@ h1 {
 
 .login {
     background: rgb(147,64,255);
-    background:var(--gradient);
+    background: linear-gradient(90deg, rgba(147,64,255,1) 14%, rgba(31,65,187,1) 100%);
     color: #FFFFFF;
     font-family: Arial Black, Arial, sans-serif;
     cursor: pointer;
@@ -34,7 +32,7 @@ h1 {
 
 .cadastro {
     background: rgb(147,64,255);
-    background: var(--gradient);
+    background: linear-gradient(90deg, rgba(147,64,255,1) 14%, rgba(31,65,187,1) 100%);
     color: #FFFFFF;
     font-family: Arial Black, Arial, sans-serif;
     cursor: pointer;
@@ -128,4 +126,3 @@ a {
 a:hover {
     color: white;
 }
-

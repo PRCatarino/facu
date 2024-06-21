@@ -42,13 +42,14 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    margin-top: 10px;
 }
 
 .container-flex {
     padding-top: 50px;
 }
 
-.inputs-container {
+.feedContainer {
     flex: 2;
     padding: auto;   
 }
@@ -104,3 +105,36 @@ body {
     padding: 8px 20px;
     border-color: violet;
 }
+
+#cadastro-button { 
+    background: rgb(147,64,255);
+    background: white;
+    color: rgb(147,64,255);
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.titleArea {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.descriptionArea {
+    background-color: #FFFFFF;
+    height: 10vh;
+    border-radius: 5px;
+}
+
+.localidadeArea {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.container-footer{
+    margin-top: 10px;
+}
+
