@@ -25,5 +25,5 @@ function registrationform(username, email, password) {
 
   localStorage.setItem('User', JSON.stringify(user));
   alert("Usuário cadastrado com sucesso!");
-  screenChange('../login')
+  screenChange('login')
 }

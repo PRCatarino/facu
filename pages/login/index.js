@@ -8,12 +8,13 @@ document.getElementById('login-button').addEventListener('click', (e)=>{
 })
 function loginUsuario(email, password) {
   const storedUser = JSON.parse(localStorage.getItem('User'));
-
-  if (storedUser.email.toLowerCase() === email && storedUser.password === password) {
+  if(storedUser !== null){
+    if (storedUser.email.toLowerCase() === email && storedUser.password === password) {
       alert('Login bem-sucedido!')
-      return screenChange('../feed')
-  } else {
-      alert('Nome de usuário ou senha incorretos.');
-  }
+      return screenChange('feed')
+    }else {
+        alert('Nome de usuário ou senha incorretos.');
+    }
+  }else return alert('Você não possui cadastro'), screenChange("Cadastro")
 }
 
