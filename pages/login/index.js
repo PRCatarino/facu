@@ -15,6 +15,6 @@ function loginUsuario(email, password) {
     }else {
         alert('Nome de usuário ou senha incorretos.');
     }
-  }else return alert('Você não possui cadastro'), screenChange("Cadastro")
+  }else return alert('Você não possui cadastro'), screenChange("cadastro")
 }
 
